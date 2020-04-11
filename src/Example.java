@@ -61,7 +61,7 @@ public class Example {
         Matcher m_dob = p_dob.matcher(dob);
 
         while(m_dob.find()){
-            System.out.println(m_dob.group());
+            System.out.println("Your Date of Birth : " + m_dob.group());
         }
 
 
